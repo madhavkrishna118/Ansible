@@ -1,5 +1,5 @@
 ---
-mywebpackonubuntu: stress
+mywebpackonubuntu: apache2
 mywebpackonredhat: httpd
 
 myjavapackonredhat: java-1.8.0-openjdk
