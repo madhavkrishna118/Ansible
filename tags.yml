@@ -8,9 +8,9 @@
      state: present
     tags: git
 
-  - name: instll wgetgtttyjg
+  - name: instll wget
     apt:
-     name: wget
+     name: wgetfhfdhdfhfd
      state: present
     tags: wget
 
