@@ -1,5 +1,5 @@
 ---
-mywebpackonubuntu: weget
+mywebpackonubuntu: tree
 mywebpackonredhat: httpd
 
 myjavapackonredhat: java-1.8.0-openjdk
