@@ -10,10 +10,10 @@
 
   - name: install tree
     apt:
-     name: tree
+     name: treevdsgsdg
      state: present
     ignore_errors: yes
-    
+
   - name:  install wget
     apt:
      name: wget
