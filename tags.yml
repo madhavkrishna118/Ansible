@@ -8,7 +8,7 @@
      state: present
     tags: git
 
-  - name: instll wget
+  - name: instll wgetgtttyjg
     apt:
      name: wget
      state: present
