@@ -8,11 +8,11 @@
      state: present
    
 
-  - name: instll wget
+  - name: install wget
     apt:
-     name: wgetfhfdhdfhfds
-     state: present
-    ignore_error: true
+      name: wgetfhfdhdfhfds
+      state: present
+    ignore_errors: True
 
   - name: instll tree
     apt:
