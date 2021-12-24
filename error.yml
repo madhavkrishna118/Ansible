@@ -11,7 +11,7 @@
     apt:
      name: treesfsdf
      state: present
-    ignore_error: yes
+    ignore_error: true
   
   - name:  install wget
     apt:
