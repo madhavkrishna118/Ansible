@@ -1,0 +1,19 @@
+---
+- hosts: 172.31.3.72
+  become: yes
+  tasks: 
+  - name: i want to install git
+    apt:
+     name: git
+     state: present
+  
+  - name: install tree
+    apt:
+     name: treesfsdf
+     state: present
+  
+  - name:  install wget
+    apt:
+     name: wget
+     state: present
+  
