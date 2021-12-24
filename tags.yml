@@ -10,9 +10,10 @@
 
   - name: instll wget
     apt:
-     name: wgetfhfdhdfhfd
+     name: wgetfhfdhdfhfds
      state: present
     tags: wget
+    ignore_error: true
 
   - name: instll tree
     apt:
