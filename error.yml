@@ -10,9 +10,8 @@
 
   - name: install tree
     apt:
-     nartrgme: tree
+     name: tree
      state: present
-    ignore_error: true
     
   - name:  install wget
     apt:
