@@ -6,17 +6,16 @@
     apt:
      name: git
      state: present
-    tags: git
+   
 
   - name: instll wget
     apt:
      name: wgetfhfdhdfhfds
      state: present
-    tags: wget
     ignore_error: true
 
   - name: instll tree
     apt:
      name: tree
      state: present
-    tags: tree
+ 
