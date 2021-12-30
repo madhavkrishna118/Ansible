@@ -1,0 +1,49 @@
+---
+- name: Give the tomcat group ownership
+  file: 
+   path: /opt/tomcat
+   group: tomcat
+   recurse: yes
+   state: directory
+
+- name: read access fot to the confi directory
+  file:
+     path: /opt/tomcat/conf
+     recurse: yes
+     mode: g+r
+     state: directory
+
+- name: read access fot to the confi directory
+  file:
+     path: /opt/tomcat/conf
+     mode: g+x
+     state: directory
+
+- name: owner of tomcat
+  file:
+     path: /opt/tomcat/webapps/
+     recurse: yes
+     owner: tomcat
+     state: directory
+
+- name: owner of work directory
+  file:
+     path: /opt/tomcat/work/
+     recurse: yes
+     owner: tomcat
+     state: directory
+
+
+- name: owner of temp directory
+  file:
+     path: /opt/tomcat/temp/
+     recurse: yes
+     owner: tomcat
+     state: directory
+
+- name: owner of logs directory
+  file:
+     path: /opt/tomcat/logs/
+     recurse: yes
+     owner: tomcat
+     state: directory
