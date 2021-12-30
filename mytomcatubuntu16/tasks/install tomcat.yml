@@ -8,7 +8,7 @@
 - name: crete the directory for install tomcat
   file:
     path: /opt/tomcat
-    state: present
+    state: directory
 
 - name: extract tar file
   command: 
